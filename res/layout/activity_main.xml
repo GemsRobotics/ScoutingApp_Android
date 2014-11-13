@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gems.Robotics.ScoutingApp.MainActivity" >
+    
+    <EditText
+        android:id="@+id/teamNumber"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="@string/teamNumber"
+        android:inputType="number"
+        />
+   
+
+    <EditText
+        android:id="@+id/matchNumber"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/teamNumber"
+        android:layout_below="@+id/teamNumber"
+        android:hint="@string/matchNumber"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/ahighy"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/matchNumber"
+        android:layout_below="@+id/matchNumber"
+        android:text="@string/ahighy"
+        android:onClick="ahighy"
+        android:background="#00FF00" 
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/ahighn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/ahighy"
+        android:layout_below="@+id/matchNumber"
+        android:text="@string/ahighn"
+        android:onClick="ahighn"
+        android:background = "#FE2E2E"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/alowy"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ahighy"
+        android:text="@string/alowy" 
+        android:onClick="alowy"
+        android:background="#00FF00"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/alown"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ahighn"
+        android:layout_toRightOf="@+id/alowy"
+        android:text="@string/alown" 
+        android:onClick="alown"
+        android:background = "#FE2E2E"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/highy"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/alowy"
+        android:text="@string/highy" 
+        android:onClick="highy"
+        android:background="#00FF00"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/highn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/alown"
+        android:layout_toRightOf="@+id/highy"
+        android:text="@string/highn" 
+        android:onClick="highn"
+        android:background="#FE2E2E"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/lowy"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/highy"
+        android:text="@string/lowy" 
+        android:onClick="lowy"
+        android:background="#00FF00"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/lown"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/highn"
+        android:layout_toRightOf="@+id/lowy"
+        android:background="#FE2E2E"
+        android:onClick="lown"
+        android:text="@string/lown"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/lown"
+        android:text="@string/send" 
+        android:onClick="send"
+        android:background = "#2E9AFE"
+        android:textSize="25sp"/>
+
+    
+
+</RelativeLayout>

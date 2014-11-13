@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scouting App (Team 4362)</string>
+    <string name="action_settings">Settings</string>
+    <string name="teamNumber">Enter Team Number here</string>
+    <string name="matchNumber">Enter Match Number Here</string>
+    <string name="ahighy">Auton High Goal Made</string>
+    <string name="alowy">Auton Low Goal Made</string>
+    <string name="ahighn">Auton High Goal Miss</string>
+    <string name="alown">Auton Low Goal Missed</string>
+    <string name="highy">High Goal Made</string>
+    <string name="highn">High Goal Missed</string>
+    <string name="lowy">Low Goal Made</string>
+    <string name="lown">Low Goal Missed </string>
+    <string name="send">Press To Send Data</string>
+    <string name="title_activity_login">Login</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2967276866490692/6982143169</string>
+
+</resources>
